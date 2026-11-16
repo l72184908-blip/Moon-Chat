@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Unzip project
-        run: unzip -o moon-chat-android.zip
+        run: unzip -o *.zip
 
       - name: Build debug APK
         working-directory: moon-chat-android
